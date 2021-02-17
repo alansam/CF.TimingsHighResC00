@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		5A5AB3F325D9B76200167566 /* CF.TimingsHighResC00 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CF.TimingsHighResC00; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5AB3F625D9B76200167566 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5A5AB3FF25D9B7C900167566 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		5A5AB3EA25D9B76200167566 = {
 			isa = PBXGroup;
 			children = (
+				5A5AB3FF25D9B7C900167566 /* README.md */,
 				5A5AB3F525D9B76200167566 /* CF.TimingsHighResC00 */,
 				5A5AB3F425D9B76200167566 /* Products */,
 			);
@@ -239,9 +241,11 @@
 		5A5AB3FB25D9B76200167566 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++2a";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD3NHZ5324;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu18;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -249,9 +253,11 @@
 		5A5AB3FC25D9B76200167566 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++2a";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD3NHZ5324;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu18;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
