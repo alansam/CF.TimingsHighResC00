@@ -1,8 +1,10 @@
 #  Profiling Code Using `clock_gettime`
 
-> See: <http://www.guyrutenberg.com/2007/09/22/profiling-code-using-clock_gettime/>
-> <https://stackoverflow.com/questions/6749621/how-to-create-a-high-resolution-timer-in-linux-to-measure-program-performance>
-> Author: [Guy Rutenberg](https://www.guyrutenberg.com/)
+> **See:** http://www.guyrutenberg.com/2007/09/22/profiling-code-using-clock_gettime/
+>
+> https://stackoverflow.com/questions/6749621/how-to-create-a-high-resolution-timer-in-linux-to-measure-program-performance>
+>
+> **Author:** [Guy Rutenberg](https://www.guyrutenberg.com/)
 
 After raising the issue of the low resolution problem of the timer provided by `clock()` in [Resolution
 Problems in `clock()`](http://www.guyrutenberg.com/2007/09/10/resolution-problems-in-clock/), I’ve
